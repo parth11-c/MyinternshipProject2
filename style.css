@@ -1,0 +1,53 @@
+body{
+    background-size: cover;
+    background-image: url(download2.jpg);
+}
+.main{
+    width: 100%;
+    position: relative;
+}
+
+.h1{
+align-items: center;
+display: inline;
+display: flex;
+
+
+}
+.mydiv{
+display: inline;
+
+
+}
+
+
+
+table{
+    width: 100%;
+}
+ul{
+    text-align: right;
+                
+
+}
+li{
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+    align-items: center;
+    
+}
+.content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+.para{
+    text-align: center;
+}
+.cc{
+    margin-top: 15;
+    text-align: left;
+    align-items: center;
+}
