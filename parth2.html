@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color: rgb(247, 247, 247);
+            
+        }
+        
+        .heading{
+            align-content: center;
+            justify-content: center;
+            display: flex;
+            background-size: cover;
+           
+        }
+        form {
+            
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        table{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            background-color: rgb(188, 217, 224);
+            border-radius: 20px;
+            padding: 20px;
+            
+        }
+        .but{
+        background-color: rgb(37, 109, 156);
+        border-radius: 15px;
+        justify-content: center;
+        display: flex;
+        width: 100px;
+        align-items: center;
+    }
+    .but:hover{
+        background-color: rgb(214, 233, 233);
+    }
+
+
+    
+    </style>
+</head>
+<body>
+    <h1 class="heading">Registration Form</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    <label for="first-name">Name</label>
+                </td>
+                <td>
+                    <input type="text" id="first-name">
+                    <br>(First name)
+                </td>
+                <td>
+                    <input type="text" id="last-name">
+                    <br>(Last name)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mobile-no">Mobile No</label>
+                </td>
+                <td>
+                    <input type="number" id="mobile-no">
+                    <br>(Contact no.)
+                </td>
+                <td>
+                    <label for="">Gender</label>
+                    
+                    <input type="radio">(Male) 
+                    <input type="radio">(Female)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea id="address" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="username">UserName</label>
+                </td>
+                <td>
+                    <input type="text" id="username">
+                    <br>(Username)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="password">
+                    <br>(Password)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> 
+                    &nbsp;
+                     <center><input class="but" type="submit" name="go"></center>
+                    
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
